@@ -1,0 +1,19 @@
+<header class="fixed top-0 w-full bg-base-100 z-50">
+  <nav class="container mx-auto px-4 py-4">
+    <div class="flex justify-between items-center">
+      <a href="/" class="text-xl font-bold">TB</a>
+      <div class="flex gap-6">
+        <a routerLink="/home" class="hover:text-primary">Accueil</a>
+        <a routerLink="/about" class="hover:text-primary">À propos</a>
+        <a routerLink="/skills" class="hover:text-primary">Compétences</a>
+        <a routerLink="/projects" class="hover:text-primary">Projets</a>
+        <a routerLink="/contact" class="hover:text-primary">Contact</a>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main class="pt-16">
+  <router-outlet></router-outlet>
+</main>
+

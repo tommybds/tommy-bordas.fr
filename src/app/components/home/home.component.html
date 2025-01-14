@@ -1,0 +1,14 @@
+<section class="hero">
+  <h1 class="animate-text" @fadeInUp>
+    Développeur Full Stack & Expert E-commerce
+  </h1>
+  <p class="subtitle" @fadeInUp>
+    8 ans d'expertise en développement web, e-commerce et SEO
+  </p>
+  <div class="key-numbers">
+    <div class="number" *ngFor="let stat of stats" @fadeInUp>
+      <span>{{ stat.value }}</span>
+      <p>{{ stat.label }}</p>
+    </div>
+  </div>
+</section> 
